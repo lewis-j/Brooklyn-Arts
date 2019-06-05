@@ -1,0 +1,91 @@
+            
+       
+            
+
+body{
+   font-family: "Helvetica"; 
+    
+}
+.about{
+    max-width: 500px;
+   margin: auto;
+    
+    
+}
+    .about h2 {
+    
+    text-align: center;
+        text-decoration: underline;
+        font-family: "New Courier";
+    
+}
+
+.container3{
+    
+    background-color: #9099A2;
+   
+}
+            .comments{
+             margin-top: 50px;   
+            } 
+            
+            .comment-title{
+    
+                text-align: center;
+                font-family: "New Courier"; 
+            }
+            .form{
+                text-align: right;
+            }
+.last-item-spacing{
+    margin-bottom: 50px;
+    
+}
+
+
+            .title{
+            padding-left: 100px;    
+            
+            }
+.title h1{
+    font-family: "New Courier";
+    text-decoration: underline;
+    
+}
+
+            .siteImg{
+    
+                padding-top: 50px;
+                }
+
+                .passwordContainer{
+                padding-bottom:100px;
+                padding-top:15px;
+            }
+
+            
+            .list-group-heading{
+            margin-top: 10px;
+            margin-bottom: 30px;
+                font-weight: bold;
+    
+            }
+
+           .list-group-item-text li {
+    
+            margin-top:20px;
+            }
+            
+
+            
+            .navbar-default .navbar-nav>.active>a,
+            .navbar-default .navbar-nav>.active>a:focus,
+            .navbar-default .navbar-nav>.active>a:hover {
+                
+                  
+              
+                background-color: #9099A2;
+                color: white;
+                
+            }
+            

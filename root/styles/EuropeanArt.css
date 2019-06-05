@@ -1,0 +1,48 @@
+            
+       
+            
+
+
+            body{ 
+                background-color:#9099A2;
+                
+             }
+            
+
+            .clear{
+                clear: left;
+            }
+          .panel-default > .panel-heading {
+            background: #6D7993;
+              color: #C0B283;
+            }
+            .contain1{
+                
+                color: #373737;
+                background-color: #F4F4F4;
+                margin-top: 20px;
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+               
+            }
+        
+            .title{
+                text-align: center;
+                color: #C0B283;
+                padding-bottom: 25px;
+                padding-top:25px;
+    
+            }
+    
+            
+            .navbar-default .navbar-nav>.active>a,
+            .navbar-default .navbar-nav>.active>a:focus,
+            .navbar-default .navbar-nav>.active>a:hover {
+                
+                  
+                
+                background-color: #C0B283;
+                color: white;
+                
+            }
+            

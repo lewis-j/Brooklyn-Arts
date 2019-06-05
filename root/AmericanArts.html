@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Bootstrap Website</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="script/bootstrap-rating.min.js"></script>
+        <link  type="text/css" rel="stylesheet" href="styles/NavBarHeader.css"/>
+        <link  type="text/css" rel="stylesheet" href="styles/Galleries.css"/>
+        
+        <!--[if lt IE 9]>      
+<script src="https://oss.maxcdn.com/libs/html5shiv/ 3.7.0/html5shiv.js"></script>      
+<script src="https://oss.maxcdn.com/libs/respond.js/ 1.4.2/respond.min.js"></script>    
+        <![endif]-->
+        
+        
+    </head>
+    <body>
+ <div class="container-fluid ">
+  <nav class="navbar navbar-default nav1">
+    <div class="navbar-header">
+      <button type="button" data-target="#navbar_collapsed" data-toggle="collapse" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="https://archive.org/details/brooklynmuseum"><img class="navbar-brand nav-logo" src="images/brooklynLogo.jpg" alt="Brooklyn Icon"></a>
+        <a href="../BrooklynArts.html"><span class="glyphicon glyphicon-home navbar-brand collapse-title"></span></a>
+        <p class="navbar-brand collapse-title mobile-title">Brooklyn museum</p>
+        
+        
+    </div>
+    <div id="navbar_collapsed" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+          <li><a href="../BrooklynArts.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="EuropeanArts.html">European Art</a></li>
+          <li class="active"><a href="#">American Art</a></li>
+          <li><a href="AsianArts.html">Asain Art</a></li>
+          <li><a href="IslamicArts.html">Arts of the Islamic World</a></li>
+          <li><a href="AboutsAndCredits.html">Abouts &amp; Credits</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    <div class="container header1">
+        <div class="row">
+            <h1>Brooklyn Museum of Art</h1>
+            <p>A personal collection of some of my Favorite Art from the Brooklyn Museum.</p>
+        </div>
+    </div>
+        <div class="container contain1">
+    <div class="row">
+      <h1 class="title">American Art</h1>
+    </div>
+        
+    <div class="row ">
+        <div class="col-sm-6">   
+      <div class="thumbnail" id="first">
+       <a href="https://archive.org/details/brooklynmuseum-o1558-a-storm-in-the-rocky-mountains-mt"><img src="images/StormInTheRockyMountains.jpg" alt="A Storm in the Rocky Mountains, Mt. Rosalie"></a> 
+        <div class="caption">
+            <p><b>A Storm in the Rocky Mountains, Mt. Rosalie</b><i> Publication date 1866</i></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+              <div class="panel panel-default">
+                    <div class="panel-heading head">
+                         <h3 class="head">A Storm in the Rocky Mountains, Mt. Rosalie</h3>
+                        <p><i>by Albert Bierstadt</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>
+                    In 1863, Albert Bierstadt made an arduous expedition to Colorado in order to gather studies of the region for this monumental painting, executed three years later in his New York studio. For the final canvas, he exercised artistic license—rearranging some landmarks and exaggerating the scale of others—to maximize the visual interest of this Rocky Mountain landscape. The picture toured the country on a yearlong exhibition and thrilled audiences with its dual effects of sublime grandeur and reportorial detail. Soaring peaks, expansive valleys, and turbulent weather conditions create a dramatic backdrop for the meticulously detailed flora and a Native American hunting scene in the foreground. Mt. Rosalie (now Mt. Evans) appears in spotlight within a ring of dark clouds in the upper left corner of the composition. Bierstadt established his artistic reputation with "Great Pictures" of the American West that embodied the national agenda of expansionism known as Manifest Destiny.
+                    </p>
+                        
+            <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-6 clear">   
+        <div class="thumbnail" id="second">
+        <a href="https://archive.org/details/brooklynmuseum-o2094-synchromy-no-3"><img src="images/synchromy.jpg" alt="Synchromy No. 3"></a>
+        <div class="caption">
+            <p><b>Synchromy No. 3</b><i> Publication date 1917</i></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+            
+         <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Synchromy No. 3</h3>
+            <p><i>by Stanton MacDonald-Wright</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>In 1912 Stanton MacDonald-Wright and his colleague Morgan Russell invented the term Synchromy to refer to their experiments in making abstract compositions whose primary emphasis was on color. Although both artists were inspired by Cubism, they set out to reassert the importance of color in relationship to line in the creation of form.</p>
+                    </div>
+                 <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+        </div>
+       <div class="col-sm-6 clear">   
+        <div class="thumbnail" id="third">
+        <a href="https://archive.org/details/brooklynmuseum-o2812-lost-lake-yosemite"><img src="images/lostLakeYosemite.jpg" alt="Lost Lake, Yosemite"></a>
+        <div class="caption">
+            <p><b>Lost Lake, Yosemite</b><i> Publication date 1920</i></p>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-6">
+            
+         <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Lost Lake, Yosemite</h3>
+            <p><i>by Marguerite Thompson Zorach</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>
+                   Expressive design was always at the heart of Marguerite Zorach’s art. Basing her imagery on some firsthand sketches (in this case made on a trip to Yosemite in 1920), Zorach preferred to work away from her original motifs in nature to achieve a composition independent of direct observation. Employing a decorative approach—with formal patterns and non-naturalistic colors—in a number of media, she initially was best known for her hand-sewn pictorial tapestries, for which her watercolors sometimes served as preparatory designs.
+                        </p>
+                        
+                <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+                    </div>
+        </div>
+           <div class="col-sm-6 clear">   
+        <div class="thumbnail" id="fourth">
+        <a href="https://archive.org/details/brooklynmuseum-o442-sunset-over-the-sea"><img src="images/sunsetOverTheSea.jpg" alt="Sunset over the Sea"></a>
+        <div class="caption">
+            <p><b>Sunset over the Sea</b><i> Publication date 1887</i></p>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-6">
+            
+         <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Sunset over the Sea</h3>
+            <p><i>by George Innes</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>
+                     Trained in the realistic conventions of the Hudson River school, George Inness slowly evolved a highly expressive and original manner after the Civil War and turned to suggestive, nontopographical landscapes. In late works like Sunset over the Sea, Inness achieved a coloristic and expressive unity that stepped further away from objective reality. The image is divided into two registers, sea and sky, rendered in hazes of pigment that mimic the shifting state of air, water, and light in nature. Sea birds riding the currents of air above the waves in the foreground, which is bathed in an eerie light, undoubtedly bore a spiritual message for the artist, an ardent follower of the Swedenborgian faith.
+                        </p>
+                        
+                <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+                    </div>
+        </div>
+    </div>
+        </div>
+
+
+    </body>
+</html>

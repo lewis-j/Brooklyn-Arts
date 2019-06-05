@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Bootstrap Website</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <link  type="text/css" rel="stylesheet" href="styles/NavBarHeader.css"/>
+         <link  type="text/css" rel="stylesheet" href="styles/AboutsCredits.css"/>
+       
+        
+        <!--[if lt IE 9]>      
+<script src="https://oss.maxcdn.com/libs/html5shiv/ 3.7.0/html5shiv.js"></script>      
+<script src="https://oss.maxcdn.com/libs/respond.js/ 1.4.2/respond.min.js"></script>    
+        <![endif]-->
+
+        
+        
+      
+
+    </head>
+    <body>
+
+ <div class="container-fluid ">
+  <nav class="navbar navbar-default nav1">
+    <div class="navbar-header">
+      <button type="button" data-target="#navbar_collapsed" data-toggle="collapse" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="https://archive.org/details/brooklynmuseum"><img class="navbar-brand nav-logo" src="images/brooklynLogo.jpg" alt="Brooklyn Icon"></a>
+        <a href="../BrooklynArts.html"><span class="glyphicon glyphicon-home navbar-brand collapse-title"></span></a>
+        <p class="navbar-brand collapse-title mobile-title">Brooklyn museum</p>
+        
+        
+    </div>
+    <div id="navbar_collapsed" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+          <li><a href="../BrooklynArts.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="EuropeanArts.html">European Art</a></li>
+          <li><a href="AmericanArts.html">American Art</a></li>
+          <li><a href="AsianArts.html">Asain Art</a></li>
+          <li><a href="IslamicArts.html">Arts of the Islamic World</a></li>
+          <li class="active"><a href="#">Abouts &amp; Credits</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    <div class="container header1">
+        <div class="row">
+            <h1>Brooklyn Museum of Art</h1>
+            <p>A personal collection of some of my Favorite Art from the Brooklyn Museum.</p>
+        </div>
+    </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="about">
+                <h2>About</h2>
+                <p>
+                              I haven't involved myself to much into the art world so this site has been a means for me to further expand my exposure to art from different regions of the world.  I've compiled a gallery from four regions (Europe, American, Asian, Islamic) all sourced from the Brooklyn Museum of Art. Each gallery consist of art that I found visually fascinating, which to my surprise seem to fall into the categories of  grim and ghoulish to bleak and grim. Leave a comment below to let me know what you think.
+
+                </p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container container3">
+        <div class="row">
+        
+         <div class="col-sm-12">
+            <div class="title">
+            <h1>Site Credits</h1>
+            <p>9/25/2017</p>
+            </div>
+            </div>
+        <div class="col-sm-7">
+             <div class="list-group">
+            <div class="list-group-item">
+                <h4 class="list-group-heading">Image Content</h4>
+                <ul class="list-group-item-text">
+                    <li>All Gallery images(European Art, American Art, Asain Art, Arts of the Islamic World), are sourced from the non-profit Internet archive <a href="https://archive.org/">https://archive.org/</a> </li>
+                    <li class="last-item-spacing">The homepage image(Brooklyn Museum Night 2015), is sourced from <a href="https://en.wikipedia.org/wiki/Brooklyn_Museum">https://en.wikipedia.org/wiki/Brooklyn_Museum</a> </li>
+               
+                </ul>
+                </div>
+                 <div class="list-group-item">
+                 <h4 class="list-group-heading">Textual Content</h4>
+                     <ul class="list-group-item-text">
+                     <li>The Knight, Death and the Devil
+                         <i>by Albrecht Dürer</i> source:<a href="https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil">https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil</a></li>
+                         <li>The Sea Monster <i>by Albrecht Dürer</i> source:<a href="https://en.wikipedia.org/wiki/The_Sea_Monster">https://en.wikipedia.org/wiki/The_Sea_Monster</a></li>
+                         <li class="last-item-spacing">All other textual content was sourced from the non-profit Internet archive <a href="https://archive.org/">https://archive.org/</a>  </li>
+                     </ul>
+                 </div>
+            </div>
+            </div>
+           
+        <div class="col-sm-5"></div>
+            <a href="https://archive.org/details/brooklynmuseum"><img class="img-responsive siteImg" src="images/archiveOrg.png"></a>
+          
+        </div>
+        
+        
+        <hr>
+
+        <div class="container comments">
+            <h2 class="comment-title">Comments</h2>
+            
+  <form class="form-horizontal">
+    <div class="form-group">
+       
+      <label for="formEmail" class="control-label col-sm-3 form">Name</label>
+      
+      <div class="col-sm-6">
+        <input type="email" class="form-control" id="formEmail" placeholder="Your Name">
+      </div>
+    </div>
+    <div class="form-group">
+       
+      <label for="formPassword" class="control-label col-sm-3">Leave Comment</label>
+        
+      <div class="col-sm-6">
+        <input type="password" class="form-control passwordContainer" id="formPassword" placeholder="leave comment...">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-xs-offset-4 col-xs-8">
+        <button type="submit" class="btn btn-primary">Submit Comment</button>
+      </div>
+    </div>
+  </form>
+</div>
+        </div>
+
+
+
+    </body>
+</html>

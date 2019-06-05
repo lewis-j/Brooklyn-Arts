@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Bootstrap Website</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="script/bootstrap-rating.min.js"></script>
+        <link  type="text/css" rel="stylesheet" href="styles/NavBarHeader.css"/>
+        <link  type="text/css" rel="stylesheet" href="styles/Galleries.css"/>
+        
+        <!--[if lt IE 9]>      
+<script src="https://oss.maxcdn.com/libs/html5shiv/ 3.7.0/html5shiv.js"></script>      
+<script src="https://oss.maxcdn.com/libs/respond.js/ 1.4.2/respond.min.js"></script>    
+        <![endif]-->
+        
+        
+    </head>
+    <body>
+ <div class="container-fluid ">
+  <nav class="navbar navbar-default nav1">
+    <div class="navbar-header">
+      <button type="button" data-target="#navbar_collapsed" data-toggle="collapse" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="https://archive.org/details/brooklynmuseum"><img class="navbar-brand nav-logo" src="images/brooklynLogo.jpg" alt="Brooklyn Icon"></a>
+        <a href="../BrooklynArts.html"><span class="glyphicon glyphicon-home navbar-brand collapse-title"></span></a>
+        <p class="navbar-brand collapse-title mobile-title">Brooklyn museum</p>
+        
+        
+    </div>
+    <div id="navbar_collapsed" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+          <li><a href="../BrooklynArts.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="EuropeanArts.html">European Art</a></li>
+          <li><a href="AmericanArts.html">American Art</a></li>
+          <li><a href="AsianArts.html">Asain Art</a></li>
+          <li class="active"><a href="#">Arts of the Islamic World</a></li>
+          <li><a href="AboutsAndCredits.html">Abouts &amp; Credits</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    <div class="container header1">
+        <div class="row">
+            <h1>Brooklyn Museum of Art</h1>
+            <p>A personal collection of some of my Favorite Art from the Brooklyn Museum.</p>
+        </div>
+    </div>
+        <div class="container contain1">
+    <div class="row">
+      <h1 class="title">Arts of the Islamic World</h1>
+    </div>
+        
+    <div class="row ">
+        <div class="col-sm-6">   
+      <div class="thumbnail" id="first">
+       <a href="https://archive.org/details/brooklynmuseum-o3054-battle-of-karbala"><img src="images/BattleOfKarbala.jpg" alt="Battle of Karbala"></a> 
+        <div class="caption">
+            <p><b>Battle of Karbala</b><i> Publication date late 19th-early 20th century</i></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+              <div class="panel panel-default">
+                    <div class="panel-heading head">
+                         <h3 class="head">Battle of Karbala</h3>
+                        <p><i>by Abbas Al-Musavi</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>
+                       This painting commemorates the martyrdom of Imam Husayn, the grandson of the prophet Muhammad and the third imam, or leader, of the Shiʿa Muslims. Husayn was killed by the forces of the Umayyad caliph Yazid I (r. 680–683) in the desert of Karbala in central Iraq in 680 c.e. This battle emphasizes the divide between the Sunni and Shiʿa branches of Islam; Husayn led a resistance against what the Shiʿa Muslims believed was the Umayyads’ illegitimate rule. The focus of this painting is Husayn’s half brother, ʿAbbas, mounted on a white horse as he stabs a member of Yazid’s army. Individual episodes related to the agonies suffered by Husayn and his companions leading up to and during the battle are illustrated in smaller-scale vignettes on the left. The hereafter is shown at the right, with Husayn and his companions in heaven above and their opponents in hell below.
+                    </p>
+                    <br>
+                        <p>"Coffeehouse" Paintings</p>
+                    <br>    
+                    <p>
+                        Paintings such as The Battle of Karbala show how the monumental genre, developed for the Zand and Qajar courts (see paintings displayed nearby), was reinterpreted for popular audiences during the late nineteenth and early twentieth centuries. This account of Husyan’s martyrdom inspired annual reenactments through ceremonial processions and the taʿziya, the ritual theater of Iran. Narrative paintings served as portable backdrops, or pardas (curtains), that could be rolled up and transported from location to location, where a reciter (pardadār) would point to images as he recounted the story. As they were also presented in coffeehouses, such canvases are commonly referred to as qahvakhāna, or “coffeehouse,” paintings.
+                    </p>
+                
+            <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-6 clear">   
+        <div class="thumbnail" id="second">
+        <a href="https://archive.org/details/brooklynmuseum-o52399-gushtasp-slaying-the-dragon-page"><img src="images/GushtaspSlayingDragon.jpg" alt="Gushtasp Slaying the Dragon, Page from an Illustrated Manuscript of the Shahnama of Firdawsi"></a>
+        <div class="caption">
+            <p><b>Gushtasp Slaying the Dragon, Page from an Illustrated Manuscript of the Shahnama of Firdawsi</b><i> Publication date 1483</i></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+            
+         <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Gushtasp Slaying the Dragon, Page from an Illustrated Manuscript of the Shahnama of Firdawsi</h3>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>The legendary Iranian prince Gushtasp slays a terrifying dragon in this frequently illustrated scene from the Shāhnāma (Book of Kings), put to verse by the poet Firdawsi around 1010. Denied the throne by his father, the prince Gushtasp left Iran only to return triumphantly after proving his worth against the dragon. In this scene, Gushtasp fulfills one of the more serious princely roles as the brave and courageous protector of the people, suggesting that court life did not always involve pomp and circumstance. Far Eastern influences abound, as in Gushtasp's exquisitely detailed, Chinese inspired cloud collar, his facial features, and even the dragon emerging from its rocky lair. This combination of Iranian and Chinese aesthetics alludes to the direct exchange between the two cultures during the thirteenth and fourteenth centuries, one that inspired a standardization of the khitā'ī, or Chinese-inspired, style in the art of the eastern Islamic world, especially Iran.</p>
+                   
+            <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+                    </div>
+        </div>
+       <div class="col-sm-6 clear">   
+        <div class="thumbnail" id="third">
+        <a href="https://archive.org/details/brooklynmuseum-o4822-prince-yahya"><img src="images/PrinceYahya.jpg" alt="Prince Yahya"></a>
+        <div class="caption">
+            <p><b>Prince Yahya</b><i> Publication date ca. 1835-1836</i></p>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-6">
+            
+         <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Prince Yahya</h3>
+            <p><i>by Muhammad Hasan</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>
+                        Prince Yahya, born in 1817, was the forty-third son of the Qajar ruler Fath ʿAli Shah (r. 1798–1834). A minor political figure in comparison with his powerful older half brothers, Prince Yahya at the age of five was appointed governor of Gilan, where he was assisted by Muʿtamid al-Dawla, who is portrayed on a lacquer mirror case displayed nearby. The prince’s name and title are inscribed in a cartouche, or ornamental frame for inscriptions, at the upper left. He wears the crown and jeweled ornaments appropriate to his rank, including the Order of the Lion and Sun appearing in a medallion on his chest. On the basis of the depiction of Prince Yahya as a beardless youth of fifteen or twenty with rosy cheeks, the painting may be dated to the 1830s. 
+                        </p>
+                        <br>
+                        <p>
+                        Life-size paintings of the Qajar period were originally conceived as components of larger architectural decorative programs, so it is likely that such a work would have been situated within a niche in a royal palace or pavilion. In both patterning and delicate facial features, the painting closely resembles portraits assigned to the court painter Muhammad Hasan.</p>
+                    
+                 <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+                    </div>
+        </div>
+           <div class="col-sm-6 clear">   
+        <div class="thumbnail" id="fourth">
+        <a href="https://archive.org/details/brooklynmuseum-o1955-sarafrai-kills-khushnavaz-in-a-night"><img src="images/SarafraiKillsKhushnavaz.jpg" alt="Sarafra'i Kills Khushnavaz in a Night Battle"></a>
+        <div class="caption">
+            <p><b>"Sarafra'i Kills Khushnavaz in a Night Battle," Page from a Manuscript of the Shahnama of Firdawsi.</b><i> Publication date AH 741 / 1341 CE</i></p>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-6">
+            
+         <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>"Sarafra'i Kills Khushnavaz in a Night Battle," Page from a Manuscript of the Shahnama of Firdawsi.</h3>
+            <p><i>by Vazir Qavam al-Din Hasan</i></p>
+                    </div>
+                    
+                    <div class="panel-body">
+                    <p>
+                       War was considered the most dangerous of imperial activities, but a ruler often depended on it to acquire or expand his kingdom. In this battle scene, armor-clad mounted warriors charge full speed ahead their adrenaline dynamically expressed through diagonally drawn bows, galloping horses, and the spiraling clouds of dust that frame them and rise up between the opposing forces. Along with the red and yellow ochre palette, the warriors' long torsos and the shallow background represent a style unique to painting in Shiraz under the lnjuids, governors of Fars province and vassals to the Ilkhanid Mongol rulers of Iran in the fourteenth century.
+                        </p>
+                        <br>
+                        <p>
+                        This folio belongs to a manuscript commissioned by Qavam al-Din Hasan, minister to the Injuid governor of Fars province, Abu lshaq (ruled 1335–1353), in A.H. 741/1341 A.D., as stated in its colophon. Court life thus extended into the lives of independent governing courts at the furthest reaches of the empire.
+                        </p>
+                        
+                <div class="rate">
+        <hr>
+        <p>
+    <b class="rating-title">Rate this Painting:</b>
+        <input type="hidden" id="rating2" class="rating" 
+         data-filled="glyphicon glyphicon-star" 
+         data-empty="glyphicon glyphicon-star-empty">
+        </p></div>
+                    </div>
+                    </div>
+        </div>
+    </div>
+        </div>
+
+
+    </body>
+</html>

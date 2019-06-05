@@ -1,0 +1,84 @@
+            
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+            .header1{
+               
+                color: white;
+                text-align: center;
+                font-family: 'Roboto Slab', serif;
+                background-image: url(../images/museumHeader.jpg);
+               width: auto;
+                padding: 0px;
+                border-bottom: solid 25px white;
+                }
+                .header1 h1{
+                    font-size: 20px;
+                }
+
+            .comments{
+             margin-top: 50px;   
+            }   
+
+            body{ 
+                color: #373737; 
+                 
+                
+             }
+           .nav-logo{
+            padding: 0px;
+    
+            }
+            
+            .nav1 {
+                margin:0 -15px;
+                font-family: 'Raleway', sans-serif;
+                font-size:1.1em; 
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                background-color: white;
+            }
+            
+            
+            .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+                background-color: white;
+            }
+
+               .navbar-default .navbar-nav>.active>a,
+            .navbar-default .navbar-nav>.active>a:focus {
+                text-decoration: underline;
+                font-weight: bold;
+                
+                
+            }
+
+            .mobile-title{
+    
+                    font-family: "Helvetica";
+                    font-weight: bold;
+                    }
+            @media only screen and (min-width : 480px) {
+                .header1{
+                    padding: 50px;
+                }
+                .header1 h1{
+                    font-size: 30px;    
+                }
+            }
+
+            @media only screen and (min-width : 768px) {
+                
+                .collapse-title {
+                    visibility:collapse;
+                    margin: 0px;
+                    
+                }
+                
+                .header1{
+                    padding: 100px;
+                    
+                }
+                 .header1 h1{
+                    font-size: 40px;    
+                }
+                
+            }
